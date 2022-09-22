@@ -11,10 +11,9 @@ int main() {
     cin.unsetf(ios::dec);
     cin.setf(ios::hex);
     
-    while (count != 2)
-    {
+    while (count != 2) {
         cout.width(width);
-        cout << "$$$$$$$$" << endl;
+        cout << "$$$$$$$$$$$$$" << endl;
 
         cin >> num;
 
@@ -24,5 +23,8 @@ int main() {
         
         cout.width(width);
         cout << result << endl;
+
+        cout.width(width);
+        cout << "$$$$$$$$$$$$$" << endl << endl;
     }
 }
