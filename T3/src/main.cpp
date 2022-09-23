@@ -32,6 +32,7 @@ int main() {
     prisoner3.id = ++ID;
 
     Department dep;
+    
     dep.AddPrisoner(prisoner1);
     dep.AddPrisoner(prisoner2);
     dep.AddPrisoner(prisoner3);

@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Prisoner.h"
 
 class Department {
