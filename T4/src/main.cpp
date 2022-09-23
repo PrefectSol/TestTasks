@@ -2,23 +2,19 @@
 
 using namespace std;
 
-string ToLowerCase(string str, const int len) {
-    string lowStr = "";
-
+void ToLowerCase(char str[], const int len) {
     for(int i = 0; i < len; i++) {
         char s = str[i];
         if ((int)s >= 65 && (int)s <= 90) {
-            lowStr += (char)((int)s + 32);
+            str[i] = (char)((int)s + 32);
         }
         else {
-            lowStr += s;
+            str[i] = s;
         }
     }
-
-    return lowStr;
 }
 
-char GetFrequentSymb(string str, const int len) {
+char GetFrequentSymb(char str[], const int len) {
     char freq = ' ';
 
     int maxCount = 0;
@@ -26,7 +22,7 @@ char GetFrequentSymb(string str, const int len) {
         char symb = str[i];
         int count = 1;
 
-        for(int j = 0; j < str.length(); j++) {
+        for(int j = 0; j < len; j++) {
             if (i == j) continue;
 
             char checkSymb = str[j];
@@ -42,18 +38,30 @@ char GetFrequentSymb(string str, const int len) {
     return freq;
 }
 
-int main() {
-    const string str = "FEFEFEKFEN";
-    const unsigned int len = sizeof("FEFEFEKFEN") - 1;
+void Copy(const char from[], char in[], const int len) {
+    for(int i = 0; i < len; i++) {
+        in[i] = from[i];
+    }
+}
 
-    string lowStr = ToLowerCase(str, len);
+int main() {
+    const char str[] = "FEFEFEKFEN";
+    const unsigned int len = sizeof("FEFEFEKFEN");
+
+    char lowStr[len];
+    Copy(str, lowStr, len);
+
+    ToLowerCase(lowStr, len);
     char freqSymb = GetFrequentSymb(lowStr, len);
 
-    string result = "";
-    for(int i = 0; i < len; i++) {
-        result += freqSymb;
+    char result[len];
+    for(int i = 0; i < len - 1; i++) {
+        result[i] = freqSymb;
     }
 
+    result[len - 1] = '\000';
+    
+    cout << str << endl;
     cout << result << endl;
 
     return 0;
