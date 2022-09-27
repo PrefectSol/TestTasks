@@ -107,15 +107,15 @@ double RectangleIntegral(double a, double b, int n, char *func) {
 double CalculateWithEps(double eps, double(*func)(double a, double b, int n, char *f),
                         double a, double b, int n, char *f) {
     double s0, sn;
-    int n0, nn = n;
+    int nn = n;
     int count = 0;
+
     do {
         if (count++ > 10000) return s0;
-        n0 = nn++;
         s0 = sn;
-        sn = func(a, b, nn, f);
+        sn = func(a, b, nn++, f);
 
-    } while(abs(sn - s0) >= eps);
+    } while(abs(sn - s0) > eps);
 
     return s0;
 }
