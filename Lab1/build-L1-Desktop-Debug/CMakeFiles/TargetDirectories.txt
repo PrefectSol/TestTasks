@@ -1,0 +1,4 @@
+/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles/L1.dir
+/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles/L1_autogen.dir
