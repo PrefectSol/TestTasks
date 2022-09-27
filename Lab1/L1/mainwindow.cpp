@@ -108,8 +108,9 @@ double CalculateWithEps(double eps, double(*func)(double a, double b, int n, cha
                         double a, double b, int n, char *f) {
     double s0, sn;
     int n0, nn = n;
-
+    int count = 0;
     do {
+        if (count++ > 10000) return s0;
         n0 = nn++;
         s0 = sn;
         sn = func(a, b, nn, f);
