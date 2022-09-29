@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/PrefectSol/TestTasks/Images/integral1.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/integral1.png" title="alt">
  </br>
  
-<img src="https://github.com/PrefectSol/TestTasks/Images/integral2.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/integral2.png" title="alt">
  </br>
 
-<img src="https://github.com/PrefectSol/TestTasks/Images/integral3.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/integral3.png" title="alt">
  </p>
