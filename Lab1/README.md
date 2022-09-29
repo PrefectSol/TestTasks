@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-<img src="Images/integral1.png" title="alt">
+<img src="TestTasks/Images/integral1.png" title="alt">
  </br>
  
-<img src="Images/integral2.png" title="alt">
+<img src="TestTasks/Images/integral2.png" title="alt">
  </br>
 
-<img src="Images/integral3.png" title="alt">
+<img src="TestTasks/Images/integral3.png" title="alt">
  </p>
