@@ -83,68 +83,20 @@ CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/L1_autogen/mocs_compilation.cpp -o CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.s
 
-CMakeFiles/L1.dir/main.cpp.o: CMakeFiles/L1.dir/flags.make
-CMakeFiles/L1.dir/main.cpp.o: /home/prefect/Code/C++/Tasks/Lab1/L1/main.cpp
-CMakeFiles/L1.dir/main.cpp.o: CMakeFiles/L1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/L1.dir/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/L1.dir/main.cpp.o -MF CMakeFiles/L1.dir/main.cpp.o.d -o CMakeFiles/L1.dir/main.cpp.o -c /home/prefect/Code/C++/Tasks/Lab1/L1/main.cpp
-
-CMakeFiles/L1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L1.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prefect/Code/C++/Tasks/Lab1/L1/main.cpp > CMakeFiles/L1.dir/main.cpp.i
-
-CMakeFiles/L1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L1.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prefect/Code/C++/Tasks/Lab1/L1/main.cpp -o CMakeFiles/L1.dir/main.cpp.s
-
-CMakeFiles/L1.dir/parser.cpp.o: CMakeFiles/L1.dir/flags.make
-CMakeFiles/L1.dir/parser.cpp.o: /home/prefect/Code/C++/Tasks/Lab1/L1/parser.cpp
-CMakeFiles/L1.dir/parser.cpp.o: CMakeFiles/L1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/L1.dir/parser.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/L1.dir/parser.cpp.o -MF CMakeFiles/L1.dir/parser.cpp.o.d -o CMakeFiles/L1.dir/parser.cpp.o -c /home/prefect/Code/C++/Tasks/Lab1/L1/parser.cpp
-
-CMakeFiles/L1.dir/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L1.dir/parser.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prefect/Code/C++/Tasks/Lab1/L1/parser.cpp > CMakeFiles/L1.dir/parser.cpp.i
-
-CMakeFiles/L1.dir/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L1.dir/parser.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prefect/Code/C++/Tasks/Lab1/L1/parser.cpp -o CMakeFiles/L1.dir/parser.cpp.s
-
-CMakeFiles/L1.dir/mainwindow.cpp.o: CMakeFiles/L1.dir/flags.make
-CMakeFiles/L1.dir/mainwindow.cpp.o: /home/prefect/Code/C++/Tasks/Lab1/L1/mainwindow.cpp
-CMakeFiles/L1.dir/mainwindow.cpp.o: CMakeFiles/L1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/L1.dir/mainwindow.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/L1.dir/mainwindow.cpp.o -MF CMakeFiles/L1.dir/mainwindow.cpp.o.d -o CMakeFiles/L1.dir/mainwindow.cpp.o -c /home/prefect/Code/C++/Tasks/Lab1/L1/mainwindow.cpp
-
-CMakeFiles/L1.dir/mainwindow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/L1.dir/mainwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/prefect/Code/C++/Tasks/Lab1/L1/mainwindow.cpp > CMakeFiles/L1.dir/mainwindow.cpp.i
-
-CMakeFiles/L1.dir/mainwindow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/L1.dir/mainwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/prefect/Code/C++/Tasks/Lab1/L1/mainwindow.cpp -o CMakeFiles/L1.dir/mainwindow.cpp.s
-
 # Object files for target L1
 L1_OBJECTS = \
-"CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.o" \
-"CMakeFiles/L1.dir/main.cpp.o" \
-"CMakeFiles/L1.dir/parser.cpp.o" \
-"CMakeFiles/L1.dir/mainwindow.cpp.o"
+"CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.o"
 
 # External object files for target L1
 L1_EXTERNAL_OBJECTS =
 
 L1: CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.o
-L1: CMakeFiles/L1.dir/main.cpp.o
-L1: CMakeFiles/L1.dir/parser.cpp.o
-L1: CMakeFiles/L1.dir/mainwindow.cpp.o
 L1: CMakeFiles/L1.dir/build.make
 L1: /usr/lib64/libQt5Widgets.so.5.15.5
 L1: /usr/lib64/libQt5Gui.so.5.15.5
 L1: /usr/lib64/libQt5Core.so.5.15.5
 L1: CMakeFiles/L1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable L1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable L1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/L1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

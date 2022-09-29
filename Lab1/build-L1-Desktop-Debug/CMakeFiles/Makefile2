@@ -82,12 +82,12 @@ clean: CMakeFiles/L1_autogen.dir/clean
 CMakeFiles/L1.dir/all: CMakeFiles/L1_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1.dir/build.make CMakeFiles/L1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1.dir/build.make CMakeFiles/L1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target L1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=1,2 "Built target L1"
 .PHONY : CMakeFiles/L1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/L1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/L1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles 0
 .PHONY : CMakeFiles/L1.dir/rule
@@ -108,7 +108,7 @@ CMakeFiles/L1.dir/clean:
 CMakeFiles/L1_autogen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_autogen.dir/build.make CMakeFiles/L1_autogen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L1_autogen.dir/build.make CMakeFiles/L1_autogen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=6 "Built target L1_autogen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles --progress-num=3 "Built target L1_autogen"
 .PHONY : CMakeFiles/L1_autogen.dir/all
 
 # Build rule for subdir invocation for target.

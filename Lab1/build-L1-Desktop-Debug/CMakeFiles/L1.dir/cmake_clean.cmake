@@ -4,12 +4,6 @@ file(REMOVE_RECURSE
   "L1_autogen"
   "CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/L1.dir/L1_autogen/mocs_compilation.cpp.o.d"
-  "CMakeFiles/L1.dir/main.cpp.o"
-  "CMakeFiles/L1.dir/main.cpp.o.d"
-  "CMakeFiles/L1.dir/mainwindow.cpp.o"
-  "CMakeFiles/L1.dir/mainwindow.cpp.o.d"
-  "CMakeFiles/L1.dir/parser.cpp.o"
-  "CMakeFiles/L1.dir/parser.cpp.o.d"
   "L1"
   "L1.pdb"
 )

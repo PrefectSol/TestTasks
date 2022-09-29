@@ -75,21 +75,7 @@
 	"CMAKE_SOURCE_DIR" : "/home/prefect/Code/C++/Tasks/Lab1/L1",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
-	"HEADERS" : 
-	[
-		[
-			"/home/prefect/Code/C++/Tasks/Lab1/L1/mainwindow.h",
-			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
-			null
-		],
-		[
-			"/home/prefect/Code/C++/Tasks/Lab1/L1/parser.h",
-			"MU",
-			"EWIEGA46WW/moc_parser.cpp",
-			null
-		]
-	],
+	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/L1_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/L1_autogen/mocs_compilation.cpp",
@@ -139,12 +125,7 @@
 	"QT_VERSION_MAJOR" : 5,
 	"QT_VERSION_MINOR" : 15,
 	"SETTINGS_FILE" : "/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug/CMakeFiles/L1_autogen.dir/AutogenUsed.txt",
-	"SOURCES" : 
-	[
-		[ "/home/prefect/Code/C++/Tasks/Lab1/L1/main.cpp", "MU", null ],
-		[ "/home/prefect/Code/C++/Tasks/Lab1/L1/mainwindow.cpp", "MU", null ],
-		[ "/home/prefect/Code/C++/Tasks/Lab1/L1/parser.cpp", "MU", null ]
-	],
+	"SOURCES" : [],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : [],
