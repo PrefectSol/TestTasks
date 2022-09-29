@@ -21,6 +21,7 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        Texts/Data.txt
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
