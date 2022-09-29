@@ -14,11 +14,11 @@
 <img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/Editor1.png" title="alt">
  </br>
  
-<img src="https://github.com/PrefectSol/TestTasks/Images/Editor2.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/Editor2.png" title="alt">
  </br>
 
-<img src="https://github.com/PrefectSol/TestTasks/Images/Editor3.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/Editor3.png" title="alt">
  </br>
 
- <img src="https://github.com/PrefectSol/TestTasks/Images/Editor4.png" title="alt">
+ <img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/Editor4.png" title="alt">
  </p>
