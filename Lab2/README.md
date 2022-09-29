@@ -11,14 +11,14 @@
 10.2 Поиск двоечников… – загрузить в окно редактора  строки файла, представляющие студентов заданной пользователем  группы, имеющих неудовлетворительные оценки.
 
 <p align="center">
-<img src="TestTasks/Images/Editor1.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/blob/master/Images/Editor1.png" title="alt">
  </br>
  
-<img src="TestTasks/Images/Editor2.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/Images/Editor2.png" title="alt">
  </br>
 
-<img src="TestTasks/Images/Editor3.png" title="alt">
+<img src="https://github.com/PrefectSol/TestTasks/Images/Editor3.png" title="alt">
  </br>
 
- <img src="TestTasks/Images/Editor4.png" title="alt">
+ <img src="https://github.com/PrefectSol/TestTasks/Images/Editor4.png" title="alt">
  </p>
