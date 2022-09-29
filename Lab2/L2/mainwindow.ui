@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPlainTextEdit" name="TextEditor">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>781</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="CreateFile"/>
+    <addaction name="OpenFile"/>
+    <addaction name="SaveFile"/>
+    <addaction name="Sorting"/>
+    <addaction name="FindTwoMan"/>
+    <addaction name="ClearFile"/>
+    <addaction name="Exit"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="CreateFile">
+   <property name="text">
+    <string>Создать</string>
+   </property>
+  </action>
+  <action name="OpenFile">
+   <property name="text">
+    <string>Открыть</string>
+   </property>
+  </action>
+  <action name="SaveFile">
+   <property name="text">
+    <string>Сохранить</string>
+   </property>
+  </action>
+  <action name="Sorting">
+   <property name="text">
+    <string>Сортировать по ср. баллу</string>
+   </property>
+  </action>
+  <action name="FindTwoMan">
+   <property name="text">
+    <string>Поиск двоечников</string>
+   </property>
+  </action>
+  <action name="ClearFile">
+   <property name="text">
+    <string>Очистить</string>
+   </property>
+  </action>
+  <action name="Exit">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
