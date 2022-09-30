@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "L2",
+					"name" : "L1",
 					"targetIndexes" : 
 					[
 						0,
@@ -40,16 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "L2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-L2-Debug-089505d0cf4c9629acb0.json",
-					"name" : "L2",
+					"id" : "L1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-L1-Debug-6b9871b479c2d667f7a2.json",
+					"name" : "L1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "L2_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-L2_autogen-Debug-cda9311b8ee268f55119.json",
-					"name" : "L2_autogen",
+					"id" : "L1_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-L1_autogen-Debug-13e9769da5b1ac1d3d74.json",
+					"name" : "L1_autogen",
 					"projectIndex" : 0
 				}
 			]
@@ -58,8 +58,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/prefect/Code/C++/Tasks/Lab2/build-L2-Desktop-Debug",
-		"source" : "/home/prefect/Code/C++/Tasks/Lab2/L2"
+		"build" : "/home/prefect/Code/C++/Tasks/Lab1/build-L1-Desktop-Debug",
+		"source" : "/home/prefect/Code/C++/Tasks/Lab1/L1"
 	},
 	"version" : 
 	{

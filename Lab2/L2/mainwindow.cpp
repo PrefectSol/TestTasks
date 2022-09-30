@@ -92,6 +92,8 @@ void MainWindow::on_Exit_triggered()
 void MainWindow::on_CreateFile_triggered()
 {
     QString path = QFileDialog::getExistingDirectory();
+    if (path == "") return;
+
     QString filename = QInputDialog::getText(this, "", "Введите имя нового файла");
 
     path += "/" + filename;
@@ -111,6 +113,7 @@ void MainWindow::on_CreateFile_triggered()
 void MainWindow::on_OpenFile_triggered()
 {
     QString path = QFileDialog::getOpenFileName();
+    if (path == "") return;
 
     auto input = QMessageBox::question(this, "", "Сохранить файл?", QMessageBox::Yes, QMessageBox::No);
     if (input == QMessageBox::Yes) on_SaveFile_triggered();
