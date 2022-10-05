@@ -1,0 +1,4 @@
+/home/prefect/Code/C++/Tasks/Lab5/build-L5-Desktop-Debug/CMakeFiles/L5.dir
+/home/prefect/Code/C++/Tasks/Lab5/build-L5-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/prefect/Code/C++/Tasks/Lab5/build-L5-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/prefect/Code/C++/Tasks/Lab5/build-L5-Desktop-Debug/CMakeFiles/L5_autogen.dir
