@@ -98,6 +98,10 @@ void MainWindow::paintEvent(QPaintEvent*) {
 
     painter.begin(this);
 
+    painter.drawEllipse(width() / 2 - RADIUS / 2, height() / 2 - RADIUS / 2, RADIUS, RADIUS);
+    painter.drawEllipse(width() / 2 - RADIUS / 2 - 20, height() / 2 - RADIUS / 2 - 20, RADIUS + 40, RADIUS + 40);
+    painter.drawEllipse(width() / 2 - 10, height() / 2 - 10, 20, 20);
+
     int count = 12;
     int num = 3;
 
@@ -123,35 +127,20 @@ void MainWindow::paintEvent(QPaintEvent*) {
         painter.drawRect(cos(angleUnit * i) * scale  + width() / 2 - 7,
                          sin(angleUnit * i) * scale + height() / 2 - 7,
                          14, 14);
+
+        painter.drawLine(cos(angleUnit * i) * scale  + width() / 2,
+                         sin(angleUnit * i) * scale + height() / 2,
+                         cos(angleUnit * i) * (scale + 60)  + width() / 2,
+                         sin(angleUnit * i) * (scale + 60) + height() / 2);
     }
 
-    painter.drawEllipse(width() / 2 - RADIUS / 2, height() / 2 - RADIUS / 2, RADIUS, RADIUS);
-    painter.drawEllipse(width() / 2 - RADIUS / 2 - 20, height() / 2 - RADIUS / 2 - 20, RADIUS + 40, RADIUS + 40);
-    painter.drawEllipse(width() / 2 - 10, height() / 2 - 10, 20, 20);
-
-    QList<int> x0Values;
-    QList<int> y0Values;
-    QList<int> x1Values;
-    QList<int> y1Values;
-
-    for(double angle = 0; angle < 360; angle += 30) {
-        double rad = angle / 180.0 * M_PI;
-        int x0 = RADIUS / 2;
-        int y0 = RADIUS / 2;
-
-        int x1 = RADIUS / 2 * (cos(rad) + 1);
-        int y1 = RADIUS / 2 * (sin(rad) + 1);
-
-        x0Values.push_back(x0 + width() / 2 - RADIUS / 2);
-        y0Values.push_back(y0 + height() / 2 - RADIUS / 2);
-        x1Values.push_back(x1 + width() / 2 - RADIUS / 2);
-        y1Values.push_back(y1 + height() / 2 - RADIUS / 2);
+    angleUnit = 6.28 / 60;
+    for(int del = 1; del <= 60; del++) {
+        painter.drawLine(cos(angleUnit * del) * (scale + 35)  + width() / 2 ,
+                         sin(angleUnit * del) * (scale + 35) + height() / 2,
+                         cos(angleUnit * del) * (scale + 60)  + width() / 2,
+                         sin(angleUnit * del) * (scale + 60) + height() / 2);
     }
-
-    painter.drawLine(x0Values[0] + 200, y0Values[0], x1Values[0], y1Values[0]);
-    painter.drawLine(x0Values[3], y0Values[3] + 200, x1Values[3], y1Values[3]);
-    painter.drawLine(x0Values[6] - 200, y0Values[6], x1Values[6], y1Values[6]);
-    painter.drawLine(x0Values[9], y0Values[9] - 200, x1Values[9], y1Values[9]);
 
     DrawSticks(painter);
     DrawArrows(painter);
