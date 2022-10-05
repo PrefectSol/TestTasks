@@ -1034,9 +1034,6 @@ CMakeFiles/L4.dir/mainwindow.cpp.o: /home/prefect/Code/C++/Tasks/Lab4/L4/mainwin
   /usr/include/qt5/QtGui/qinputmethod.h \
   /usr/include/qt5/QtCore/qlocale.h \
   /usr/include/qt5/QtCore/qvariant.h \
-  /usr/include/qt5/QtWidgets/QLabel \
-  /usr/include/qt5/QtWidgets/qlabel.h \
-  /usr/include/qt5/QtWidgets/qframe.h \
   /usr/include/qt5/QtWidgets/QMainWindow \
   /usr/include/qt5/QtWidgets/QMenuBar \
   /usr/include/qt5/QtWidgets/qmenubar.h \
@@ -1076,8 +1073,13 @@ CMakeFiles/L4.dir/mainwindow.cpp.o: /home/prefect/Code/C++/Tasks/Lab4/L4/mainwin
   /usr/include/qt5/QtCore/qtextstream.h \
   /usr/include/qt5/QtCore/qset.h \
   /usr/include/qt5/QtCore/qcontiguouscache.h \
-  /usr/include/c++/12/math.h
+  /usr/include/c++/12/math.h \
+  /usr/include/qt5/QtWidgets/QLabel \
+  /usr/include/qt5/QtWidgets/qlabel.h \
+  /usr/include/qt5/QtWidgets/qframe.h
 
+
+/usr/include/qt5/QtWidgets/qlabel.h:
 
 /usr/include/qt5/QtCore/qset.h:
 
@@ -1112,8 +1114,6 @@ CMakeFiles/L4.dir/mainwindow.cpp.o: /home/prefect/Code/C++/Tasks/Lab4/L4/mainwin
 /usr/include/qt5/QtWidgets/qaction.h:
 
 /usr/include/qt5/QtWidgets/qmenubar.h:
-
-/usr/include/qt5/QtWidgets/qlabel.h:
 
 /usr/include/qt5/QtCore/QVariant:
 

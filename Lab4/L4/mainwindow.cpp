@@ -4,10 +4,11 @@
 #include <cmath>
 #include <QDebug>
 #include <math.h>
+#include <QLabel>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+    , ui(new Ui::MainWindow), RADIUS(500)
 {
     ui->setupUi(this);
 }
@@ -96,6 +97,33 @@ void MainWindow::paintEvent(QPaintEvent*) {
     QPainter painter;
 
     painter.begin(this);
+
+    int count = 12;
+    int num = 3;
+
+    double angleUnit = 6.28 / count;
+    double scale = RADIUS / 2 - 60;
+
+    for(int i = 0; i < count; i++, num++) {
+        if (num == 13) num = 1;
+
+        QLabel *label = new QLabel(this);
+        QFont font("Console", 16);
+
+        label->setText(QString::number(num));
+        label->setFont(font);
+
+        const QRect pos = QRect(cos(angleUnit * i) * (scale - 40) + width() / 2 - 5.5,
+                                sin(angleUnit * i) * (scale - 40) + height() / 2 - 12.5,
+                                25, 25);
+
+        label->setGeometry(pos);
+        label->show();
+
+        painter.drawRect(cos(angleUnit * i) * scale  + width() / 2 - 7,
+                         sin(angleUnit * i) * scale + height() / 2 - 7,
+                         14, 14);
+    }
 
     painter.drawEllipse(width() / 2 - RADIUS / 2, height() / 2 - RADIUS / 2, RADIUS, RADIUS);
     painter.drawEllipse(width() / 2 - RADIUS / 2 - 20, height() / 2 - RADIUS / 2 - 20, RADIUS + 40, RADIUS + 40);

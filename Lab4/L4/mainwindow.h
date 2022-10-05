@@ -18,7 +18,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    const unsigned int RADIUS = 500;
+    const unsigned int RADIUS;
 
 protected:
     void paintEvent(QPaintEvent*) override;
