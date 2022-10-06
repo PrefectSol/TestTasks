@@ -1,0 +1,4 @@
+/home/prefect/Code/C++/Tasks/Lab6/build-L6-Desktop-Debug/CMakeFiles/L6.dir
+/home/prefect/Code/C++/Tasks/Lab6/build-L6-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/prefect/Code/C++/Tasks/Lab6/build-L6-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/prefect/Code/C++/Tasks/Lab6/build-L6-Desktop-Debug/CMakeFiles/L6_autogen.dir

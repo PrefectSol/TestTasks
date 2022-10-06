@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/L6.dir/L6_autogen/mocs_compilation.cpp.o CMakeFiles/L6.dir/main.cpp.o CMakeFiles/L6.dir/mainwindow.cpp.o CMakeFiles/L6.dir/fish.cpp.o -o L6  /usr/lib64/libQt5Widgets.so.5.15.6 /usr/lib64/libQt5Gui.so.5.15.6 /usr/lib64/libQt5Core.so.5.15.6 
