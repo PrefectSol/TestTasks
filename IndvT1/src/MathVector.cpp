@@ -1,18 +1,21 @@
 #include "Headings.h"
 #include "MathVector.h"
 
-MathVector::MathVector(int x0, int y0, int x1, int y1) : x0(x0), y0(y0), x1(x1), y1(y1) {
-    x = x1 - x0;
-    y = y1 - x0;
-
+MathVector::MathVector(int x, int y) : x(x), y(y) {
     isZero = x == 0 && y == 0 ? true : false;
 
-    lenght = sqrt(pow(x, 2) + pow(y, 2));
+    SetLenght();
 };
 
 int MathVector::GetX() { return x; }
 
 int MathVector::GetY() { return y; }
+
+void MathVector::SetX(int x) { this->x = x; }
+
+void MathVector::SetY(int y) { this->y = y; }
+
+void MathVector::SetLenght() { lenght = sqrt(pow(x, 2) + pow(y, 2)); }
 
 double MathVector::GetLenght() { return lenght; }
 

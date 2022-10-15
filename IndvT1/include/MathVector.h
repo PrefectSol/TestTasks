@@ -3,9 +3,7 @@
 class MathVector {
 private:
     int lenght;
-
-    int x0, y0, x1, y1;
-
+    
     int x, y;
 
     bool isZero;
@@ -14,12 +12,18 @@ private:
     
     MathVector(const MathVector &) = delete;
 
+    void SetLenght();
+
 public:
-    MathVector(int x0, int y0, int x1, int y1);
+    MathVector(int x, int y);
 
     int GetX();
 
     int GetY();
+
+    void SetX(int x);
+
+    void SetY(int y);
 
     double GetLenght();
 
